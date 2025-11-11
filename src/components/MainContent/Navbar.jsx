@@ -27,7 +27,9 @@ function Navbar() {
         </div>
         <div className='flex gap-3 items-center'>
             <CircleUserRound size={30} color='gray'/>
-            <span>Hi, Guest</span>
+            <Link to="/signin" className="hover:text-red-600 transition">
+    Hi, Guest
+  </Link>
         </div>
       </div>
     </div>
